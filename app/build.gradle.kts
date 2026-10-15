@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.aichat"
+    namespace = "com.attic.ai"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.aichat"
+        applicationId = "com.attic.ai"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
