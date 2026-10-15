@@ -9,8 +9,7 @@ import org.json.JSONObject
 import java.util.concurrent.TimeUnit
 
 object ApiClient {
-    // GANTI dengan URL Worker kamu
-    private const val PROXY_URL = "https://attic-ai-proxy.namamu.workers.dev"
+    private const val PROXY_URL = "https://attic-ai-proxy.aldianokto.workers.dev"
 
     private val client = OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)
