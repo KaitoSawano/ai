@@ -1,6 +1,5 @@
 export default {
   async fetch(request, env) {
-    // CORS
     if (request.method === "OPTIONS") {
       return new Response(null, {
         headers: {
